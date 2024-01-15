@@ -1,0 +1,22 @@
+.mobile {
+  position: absolute;
+  top: 20vw;
+  font-weight: bold;
+  color: rgb(61, 162, 177);
+}
+.homebox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+.home {
+  margin-top: 2vw;
+  height: 40vw;
+  width: 40vw;
+  background-image: url(../../public/images/home.jpg);
+  background-size: cover;
+}

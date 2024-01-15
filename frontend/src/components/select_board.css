@@ -1,0 +1,86 @@
+.select_screen {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../public/images/select_page_background.jpg");
+  background-size: cover;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .selectbtn {
+  width: 9vw;
+  height: 5.5vw;
+  margin: 3vw;
+  border-radius: 2.5vw;
+  border: none;
+  font-size: 1.8vw;
+  font-weight: bold;
+  color: #28292b;
+  background-color: #52947b;
+  cursor: pointer;
+}
+.selectbtn:hover {
+  background-color: #4da583;
+} */
+.box-2 {
+  background-color: #667c81;
+  border-radius: 0.5vw;
+}
+.btn {
+  /* line-height: 50px; */
+  height: 4vw;
+  text-align: center;
+  width: 20vw;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5vw;
+  border-radius: 0.5vw;
+}
+.btn-two {
+  margin: 1.2vw;
+  display: flex; /* Use flex container */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  transition: all 0.5s;
+  position: relative;
+  text-align: center;
+}
+
+.btn-two span {
+  z-index: 2;
+  display: block;
+}
+.btn-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-two::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-two:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255, 255, 255, 0.471);
+}
+.btn-two:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(255, 255, 255, 0.471);
+}

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5662ef99.css",
+    "main.js": "/static/js/main.2cd54446.js",
+    "static/media/board_c.png": "/static/media/board_c.7f33a71e57642a185d5d.png",
+    "static/media/background_c.jpg": "/static/media/background_c.e70a6ff8da54b00d59c7.jpg",
+    "static/media/select_page_background.jpg": "/static/media/select_page_background.3f3d468bbda01d871a8d.jpg",
+    "static/media/board_s.png": "/static/media/board_s.a6e241400f70c2fb8809.png",
+    "static/media/you_lose.jpg": "/static/media/you_lose.934572bb5c5cc4fe2ee5.jpg",
+    "static/media/room_background.jpg": "/static/media/room_background.1ff729af8a96933d0a49.jpg",
+    "static/media/waiting_background.jpg": "/static/media/waiting_background.873d2b29a15cea93ce31.jpg",
+    "static/media/home.jpg": "/static/media/home.1ebe4642f3dcb90e215f.jpg",
+    "static/media/background_s.png": "/static/media/background_s.b1cafec59812849d1139.png",
+    "static/media/draw.jpg": "/static/media/draw.bf3ed977cc8d511ba4ed.jpg",
+    "static/media/you_win.jpg": "/static/media/you_win.08020aee27bc5625ff87.jpg",
+    "index.html": "/index.html",
+    "main.5662ef99.css.map": "/static/css/main.5662ef99.css.map",
+    "main.2cd54446.js.map": "/static/js/main.2cd54446.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5662ef99.css",
+    "static/js/main.2cd54446.js"
+  ]
+}

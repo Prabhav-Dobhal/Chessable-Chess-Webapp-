@@ -1,0 +1,51 @@
+.roombox {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../public/images/room_background.jpg);
+  background-size: 100vw 100vh;
+}
+.roombtn {
+  margin: 3vw;
+  height: 5vw;
+  width: 10vw;
+  border-radius: 2vw;
+  font-size: 1vw;
+  font-weight: bold;
+  border: none;
+  background-color: #dda9ad;
+}
+.roombtn:hover {
+  background-color: #dda9ad98;
+  cursor: pointer;
+}
+.inputtext {
+  border-style: solid;
+  border-color: #dda9ad98;
+  background-color: azure;
+  border-radius: 1.5vw;
+  font-weight: bold;
+  font-size: 2vw;
+  text-align: center;
+}
+.inputarea {
+  margin-left: 5vw;
+  width: 25vw;
+  height: 3vw;
+  font-size: 1.5vw;
+  border-radius: 1vw;
+  border: none;
+}
+.createopen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  border-style: solid;
+  font-weight: 900;
+  background-color: aliceblue;
+}
